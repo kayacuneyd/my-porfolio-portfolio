@@ -19,6 +19,7 @@ export default function NavBar() {
             to="/post"
             activeClassName="text-white"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white"
+            // eslint-disable-next-line react/jsx-no-duplicate-props
             activeClassName="text-white bg-yellow-700"
           >
             Blog Posts
@@ -27,6 +28,7 @@ export default function NavBar() {
             to="/project"
             activeClassName="text-white"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white"
+            // eslint-disable-next-line react/jsx-no-duplicate-props
             activeClassName="text-white bg-yellow-700"
           >
             Projects
@@ -35,6 +37,7 @@ export default function NavBar() {
             to="/about"
             activeClassName="text-white"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white"
+            // eslint-disable-next-line react/jsx-no-duplicate-props
             activeClassName="text-white bg-yellow-700"
           >
             About Me!
